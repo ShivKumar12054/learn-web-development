@@ -1,0 +1,31 @@
+ /*
+##Transform - used to apply certain funtion on a object i.e
+1. rotate           - used to rotate an element on the web page
+2. scale            - used to shrik or expand the image scaling
+3. translate        - move the element height or width
+                        - we have translateX() which will move in X axis
+                        - we have translateY() which will move in Y axis
+4. skew             - this rotate element based on few points on based on some calculation
+*/
+
+
+
+div {
+    width: 100px;
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+div:nth-of-type(1) {
+    transform: rotate(10deg);
+}
+
+div:nth-of-type(2) {
+    transform: scale(0.5)
+}
+
+div:nth-of-type(3) {
+    transform: translateY(200px);
+}

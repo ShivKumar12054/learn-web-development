@@ -1,0 +1,64 @@
+/*
+Units of the CSS value
+css has
+property: value ;
+
+values will vary depending on the property we set
+
+Some of the important values used across
+1. %
+ - they are relative to some other value usally from parent or other item value
+    Example
+        width: 50% - half width of the parent
+
+ 2. EM's
+ - so this behaves differently for based on where it is used simple
+ - let's say this is used for all inheritence properties i.e font-size for
+    - 1em equals same as what parent has
+    - 2em means 2X of parent value (if parent has 8px and child using em will use 16px)
+ - for non inheritance property i.e padding or width it uses same element's font-size
+     for ref instead of parent
+
+
+
+
+ 3. REM's
+ - so this is always a reference to html root element
+ - so if we set something to 1rem it is ideally same as html element value and 2rem is 2x of that
+ 
+
+
+
+
+
+
+*/
+
+
+
+/* Units */
+p {
+    height: 50%;
+}
+
+section {
+    background-color: palegreen;
+    height: 500px;
+
+    width: 500px
+
+}
+
+div {
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+}
+
+.parent {
+    font-size: 50px;
+}
+
+.child1 {
+    font-size: 1em;
+}

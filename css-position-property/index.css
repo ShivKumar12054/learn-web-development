@@ -1,0 +1,62 @@
+/** this what makes the box and colors */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    margin: 1px;
+    /* display: inline-block; */
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    margin: 1px;
+    /* display: inline-block; */
+    /* position: absolute; */
+}
+
+#first-box {
+    position: relative;
+}
+
+#second-box {
+    /* position: absolute; */
+    background-color: red;
+    /* top: 10px; */
+    /* opacity: 0; */
+
+}
+
+#third-box {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+}
+
+#header {
+    height: 100px;
+    text-align: center;
+    opacity: 0.5;
+    /* position: fixed; */
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+#image_parent {
+    position: relative;
+}
+
+#quote1 {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}

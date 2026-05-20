@@ -1,0 +1,12 @@
+h1 {
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    width: 35%;
+    padding: 20px 0px;
+}
+
+img {
+    width: 30%;
+    margin: calc(10% / 7);
+}

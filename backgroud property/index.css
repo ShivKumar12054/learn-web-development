@@ -1,0 +1,48 @@
+/*
+backgroud prop is shorhand for
+1. backgroud-image
+    - use some image on as backgroud
+2. backgroud-size
+    - how to fit this on a element
+    - cover    -
+    - contain  -
+3. backgroud-colour
+    - simple set some element as a color
+4. backgroud-repeat
+    - when we set the backgroud-size depending
+      on the what we set image can repeat itself, we have this
+
+*/
+
+
+
+/* section {
+    width: 250px;
+    height: 300px;
+    background-image: url(dusan-veverkolog-ah7KHxYg6Ow-unsplash.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* margin: 0 auto; */
+    /* font-size: 50px; */
+/* } */
+
+h1 {
+    /* color: aliceblue; */
+    /* font-size: 50px; */
+}
+
+.hero {
+  /* height: 100vh; */
+  /* width: 100vh; */
+
+  /* width: 250px;
+  height: 300px; */
+
+    background-image: url(hans-jurgen-mager-Fbdr6gXJBVY-unsplash.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+
+  /* color: white; */
+}

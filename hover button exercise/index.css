@@ -1,0 +1,26 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+div {
+    border: 2px orange solid;
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: orange;
+}
+
+div:hover {
+    color: yellow;
+    /* border: yellow; */
+    border: 2px yellow solid;
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 10px; */
+    /* height: 30px; */
+}

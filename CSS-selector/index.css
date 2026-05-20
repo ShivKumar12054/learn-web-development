@@ -1,0 +1,68 @@
+/* Universal Selector */
+* {
+    color: pink;
+    background-color: purple;
+}
+
+/* Element selectors */
+h1, h2 {
+    color: aqua;
+}
+
+button {
+    color: pink;
+}
+
+/* ID selector (#) */
+#password {
+    background-color: brown;
+}
+
+.headers {
+    color: #ecf39e;
+    background-color: #fca311;
+}
+
+.spaners {
+    color: #ccff33;
+}
+
+/* Decendent selector - space
+- which will target all child elements
+*/
+
+header a {
+    font-size: 30px;
+    color: teal;
+}
+
+p[id='dislikes'] a {
+    color: red;
+    font-weight: bold;
+}
+
+/* Adjacent selector - use `+` to select adjacent selector */
+/* Direct child selector - use `>` to select adjacent selector */
+/* Attribute selector - use `input[type='text']` to select adjacent selector */
+
+
+/*Pseudo classes - used to select a selected element in specific state
+                 - postfix `:` to a element selector*/
+/*Hover state*/
+#submit:hover {
+    background-color: #fca311;
+    color: black;
+}
+
+p::first-letter {
+    color: red;
+}
+
+#clickme:hover {
+    background-color: #ccff33;
+}
+
+button:hover {
+    background-color: pink;
+    font-size: x-small;
+}
