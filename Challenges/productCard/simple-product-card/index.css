@@ -1,0 +1,41 @@
+section {
+    width: 350px;
+    height: 450px;
+    /* not sure how does this work */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(24, 122, 209);
+    padding-left: 15px;
+}
+
+h3:nth-of-type(1) {
+    padding: 20px;
+}
+
+p {
+    padding-left: 15px;
+}
+
+#image {
+    background-image: url(./photos/nikolai-lehmann-agEBTnS_Nuc-unsplash.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+}
+
+#image1 {
+    background-image: url(./photos/austin-neill-emH2e5SBifE-unsplash.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+}
+
+button {
+    padding: 5px 125px;
+    background-color: rgb(24, 122, 209);
+    color: aliceblue;
+    margin-left: 10px;
+}
+
